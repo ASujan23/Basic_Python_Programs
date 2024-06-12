@@ -1,0 +1,7 @@
+f = open("abc.txt","w")
+f.write("i am a student\n")
+f.write("studing in S & S college\n")
+f.write("which is located on Earth\n")
+f.close()
+f2 = open("sai.txt","r")
+print(f2.readlines())
